@@ -1,0 +1,87 @@
+ /*JACK's WORK, NAVBAR*/
+
+ nav{
+    background-color: #f8bbd0;
+}
+
+.white{
+    color: black;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+nav button:hover{
+    color: black !important;
+}
+
+.no-press:focus, .no-press:active{
+       outline: 0 !important;     
+       outline-style: none !important;     
+       outline-width: 0 !important;
+       box-shadow: none !important;
+}
+
+hr{
+    background-color: #e1e8ed;
+}
+
+
+
+/************************************
+    desktop
+************************************/
+@media screen and (min-width: 992px){
+
+    .my-dropdown:hover .my-dropdown-content{
+        display: block;
+    }
+    
+    .my-dropdown-content{
+        display: none;
+        left: 0;
+        background-color: #ffeeff;
+        z-index: 4;
+        
+    }
+
+    .static {
+        position: static;
+    }
+
+    .absolute {
+        position: absolute;
+    }
+
+    .effect{
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: black;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    li.menu:hover .effect{
+        width: 100%; 
+        left: 0;
+    }
+}
+
+/************************************
+    smartphone e tablet
+************************************/
+@media screen and (max-width: 992px){
+    .invisibile{
+        display: none;
+    }
+    .bordo{
+        border-top: 1px solid black;
+    }
+}
+
+/*JACK's WORK, NAVBAR*/

@@ -1,0 +1,175 @@
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.row-image{
+    margin-top: 30px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black !important;
+    border-radius: 50%;
+}
+
+.carousel-inner img{
+    /*immagini del carosello di stessa 
+    larghezza e altezza*/
+    /*DA RIVEDERE*/
+    width: 100%;
+    
+}
+
+div.carousel-caption {
+    color: black;
+}
+
+.img-hover-zoom{
+    overflow: hidden;
+    position: relative;
+}
+
+.img-hover-zoom img{
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.2);
+}
+
+.img-hover-zoom:hover .text-hover{
+    opacity: 1;
+}
+
+.text-hover{
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+@font-face {
+    font-family: 'Gabriola';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gabriola'), url('gabriola Font Download.woff') format('woff');
+    }
+
+    /*image desktop*/
+@media screen and (max-width: 700px){
+    .dual-image-mb{
+        display: none;
+    }
+
+}
+    /*image mobile*/
+@media screen and (min-width: 700px){
+    .dual-image{
+        display: none;
+    }
+}
+
+
+    /*JACK's WORK, NAVBAR*/
+
+    nav{
+        background-color: #f8bbd0;
+    }
+    
+    .white{
+        color: black;
+    }
+    
+    a:hover{
+        color: black;
+    }
+    
+    button:hover{
+        color: black !important;
+    }
+    
+    .no-press:focus, .no-press:active{
+           outline: 0 !important;     
+           outline-style: none !important;     
+           outline-width: 0 !important;
+           box-shadow: none !important;
+    }
+    
+    hr{
+        background-color: #e1e8ed;
+    }
+
+    
+
+    /************************************
+        desktop
+    ************************************/
+    @media screen and (min-width: 992px){
+    
+        .my-dropdown:hover .my-dropdown-content{
+            display: block;
+        }
+        
+        .my-dropdown-content{
+            display: none;
+            left: 0;
+            background-color: #ffeeff;
+            z-index: 4;
+            
+        }
+    
+        .static {
+            position: static;
+        }
+    
+        .absolute {
+            position: absolute;
+        }
+
+        .effect{
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: black;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+
+        li.menu:hover .effect{
+            width: 100%; 
+            left: 0;
+        }
+    }
+
+    /************************************
+        smartphone e tablet
+    ************************************/
+    @media screen and (max-width: 992px){
+        .invisibile{
+            display: none;
+        }
+        .bordo{
+            border-top: 1px solid black;
+        }
+    }
+
+    /*JACK's WORK, NAVBAR*/
+
+  

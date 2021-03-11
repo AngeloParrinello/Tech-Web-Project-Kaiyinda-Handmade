@@ -1,0 +1,276 @@
+<!--Categorie-->
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <!--meta tag-->
+    <title>Kaiyinda Handmade</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="virtual bijoux shop" />
+    <meta name="keywords" content="bracciali, collane, Kaiyinda, Handmade, orecchini, fatti a mano" />
+    <meta name="author" content="Giacomo Romagnoli, Angelo Parrinello, Nicola Milandri" />
+
+    <!--Import vari-->
+    <link type="text/css" rel="stylesheet" href="CSS/ProvaCategorie.css" />
+    <link type="text/css" rel="stylesheet" href="CSS/style.css" />
+    <link type="text/css" rel="stylesheet" href="CSS/navbar.css" />
+    <link type="text/css" rel="stylesheet" href="CSS/footer.css" />
+    <meta name="viewport" content="width=device-width, initialscale=1.0" />
+    <script src="https://kit.fontawesome.com/11824b5917.js" crossorigin="anonymous"></script>
+
+    <!--carousel link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg d-block align-items-center p-0">
+        <div class="d-flex">
+            <button class="navbar-toggler white no-press" type="button" data-toggle="collapse" data-target=".megamenu"
+                aria-controls="megamenu" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" fill="currentColor"
+                    class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="d-flex flex-row flex-grow-1 justify-content-center">
+                <a class="navbar-brand px-4 pt-2 mt-2" href="index.html">
+                    <img src="../HTML/Images/LogoKaiyinda.png" class="img-fluid" style="width: 120px;" alt="Logo Kaiyinda Handmade"></a>
+            </div>
+            <form class="form-inline my-2 my-lg-0 w-100 justify-content-center d-none d-lg-flex">
+                <input class="form-control mr-sm-2 w-75" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn my-2 my-sm-0 white no-press" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </button>
+            </form>
+            <ul class="navbar-nav mr-auto d-inline-flex flex-row justify-content-end">
+                <li class="nav-item p-2 d-flex align-content-center">
+                    <a class="nav-link d-flex align-items-center white" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" fill="currentColor"
+                            class="bi bi-person-circle" viewBox="0 0 16 16">
+                            <path
+                                d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                            <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            <path fill-rule="evenodd"
+                                d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item p-2 d-flex align-content-center">
+                    <a class="nav-link d-flex align-items-center white" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" fill="currentColor"
+                            class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse megamenu">
+            <form class="form-inline my-2 my-lg-0 w-100 justify-content-center d-lg-none">
+                <input class="form-control mr-sm-2 w-75" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn my-2 my-sm-0 white no-press" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </button>
+            </form>
+            <ul class="navbar-nav mr-auto flex-column flex-lg-row justify-content-center w-100"
+                style="background-color:  #ffeeff;">
+                <li class="nav-item p-0 my-dropdown static my-hover menu">
+                    <a class="nav-link white invisibile position-relative" href="#">Menu<div class="effect"></div>
+                    </a>
+                    <div class="my-dropdown-content absolute w-100 py-3">
+                        <div class="row justify-content-center p-2">
+                            <div class="col-6 col-lg-2">
+                                <h5 class="white pl-lg-2">Prima</h5>
+                                <hr class="d-none d-lg-block">
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <h5 class="white pl-lg-2">Prima</h5>
+                                <hr class="d-none d-lg-block">
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                            </div>
+                            <div class="col-6 col-lg-2 mt-3 mt-lg-0">
+                                <h5 class="white pl-lg-2">Prima</h5>
+                                <hr class="d-none d-lg-block">
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                            </div>
+                            <div class="col-6 col-lg-2 mt-3 mt-lg-0">
+                                <h5 class="white pl-lg-2">Prima</h5>
+                                <hr class="d-none d-lg-block">
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                                <a class="white d-block pb-2 nav-link" href="">category</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item p-0 my-hover bordo menu">
+                    <a class="nav-link white position-relative" href="#">Item<div class="effect"></div></a>
+                </li>
+                <li class="nav-item p-0 my-hover bordo menu">
+                    <a class="nav-link white position-relative" href="#">Item<div class="effect"></div></a>
+                </li>
+                <li class="nav-item p-0 my-hover bordo menu">
+                    <a class="nav-link white position-relative" href="#">Item<div class="effect"></div></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navbar-->
+    <main>
+        <!--section categories-->
+        <h3>CATEGORIA</h3>
+        <div class="container">
+            <div class="col-12 col-sm-12">
+                <div class="row">
+                    <div class="row-image col-12 col-md-6 col-lg-4">
+                        <a href="ImgItem"><img src="../HTML/Images/Progetto senza titolo.png" class="img-fluid" alt="Item's Image"
+                                style="display: block;"></a>
+                        <figcaption>
+                            <a class="NameItem" href="index.html">Collana</a>
+                            <p style="font-weight: bolder;">200K</p>
+                            <a class="ToItem" href="Provacart.html"> Add to cart</a>
+                        </figcaption>
+                    </div>
+                    <div class="row-image col-12 col-md-6 col-lg-4">
+                        <a href="ImgItem"><img src="../HTML/Images/Progetto senza titolo.png" class="img-fluid" alt="Item's Image"
+                                style="display: block;"></a>
+                        <figcaption>
+                            <a class="NameItem" href="index.html">Collana</a>
+                            <p style="font-weight: bolder;">200K</p>
+                            <a class="ToItem" href="Provacart.html"> Add to cart</a>
+                        </figcaption>
+                    </div>
+                    <div class="row-image col-12 col-md-6 col-lg-4">
+                        <a href="ImgItem"><img src="../HTML/Images/Progetto senza titolo.png" class="img-fluid" alt="Item's Image"
+                                style="display: block;"></a>
+                        <figcaption>
+                            <a class="NameItem" href="index.html">Collana</a>
+                            <p style="font-weight: bolder;">200K</p>
+                            <a class="ToItem" href="Provacart.html"> Add to cart</a>
+                        </figcaption>
+                    </div>
+                    <div class="row-image col-12 col-md-6 col-lg-4">
+                        <a href="ImgItem"><img src="../HTML/Images/Progetto senza titolo.png" class="img-fluid" alt="Item's Image"
+                                style="display: block;"></a>
+                        <figcaption>
+                            <a class="NameItem" href="index.html">Collana</a>
+                            <p style="font-weight: bolder;">200K</p>
+                            <a class="ToItem" href="Provacart.html"> Add to cart</a>
+                        </figcaption>
+                    </div>
+                    <div class="row-image col-12 col-md-6 col-lg-4">
+                        <a href="ImgItem"><img src="../HTML/Images/Progetto senza titolo.png" class="img-fluid" alt="Item's Image"
+                                style="display: block;"></a>
+                        <figcaption>
+                            <a class="NameItem" href="index.html">Collana</a>
+                            <p style="font-weight: bolder;">200K</p>
+                            <a class="ToItem" href="Provacart.html"> Add to cart</a>
+                        </figcaption>
+                    </div>
+                    <div class="row-image col-12 col-md-6 col-lg-4">
+                        <a href="ImgItem"><img src="../HTML/Images/Progetto senza titolo.png" class="img-fluid" alt="Item's Image"
+                                style="display: block;"></a>
+                        <figcaption>
+                            <a class="NameItem" href="index.html">Collana</a>
+                            <p style="font-weight: bolder;">200K</p>
+                            <a class="ToItem" href="Provacart.html"> Add to cart</a>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+
+    <!--END Section Categories-->
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container-fluid p-2" style="background-color: #333333; color: white;">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-sm-4">
+                    <h4 class="text-uppercase">L'AZIENDA</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Chi siamo</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-sm-4">
+                    <h4 class="text-uppercase">ASSISTENZA</h4>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-white">Spedizioni e Pagamenti</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Punti vendita</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-sm-4">
+                    <h4 class="text-uppercase">SEGUICI</h4>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-2" style="background-color: #333333; color: white;">
+            © 2020 Copyright:
+            <a class="text-white">Compagnia del ;</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
